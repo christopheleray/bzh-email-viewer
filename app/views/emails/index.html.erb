@@ -7,7 +7,7 @@
 		<br>
 		<% @emails.each do |email| %>
 		<tr>
-			<td><%= email.object %></td>
+			<td><%= link_to email.object, email %></td>
 		</tr>
 		<br>
 		<% end %>
